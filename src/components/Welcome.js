@@ -1,11 +1,11 @@
 // write code for Welcome component here
 import React from "react";
 
-const Welcome = (temp) => {
+const Welcome = (abc) => {
   return (
     <>
-      <h1>Hey{temp.name}</h1>
-      <h2>Welcome to Newton School.</h2>
+      <h1>Hey {abc.name}!</h1>
+      <h2>Welcome to Newton School</h2>
     </>
   );
 };
